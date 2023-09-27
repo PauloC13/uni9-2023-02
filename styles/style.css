@@ -1,0 +1,23 @@
+body, #container{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    display: flexbox;
+    flex-direction: row;
+}
+
+#contatos{
+    width: 30%;
+    border: 1px black solid;
+    background-color: white;  
+}
+#chat{
+    width: 70%;
+    border: 1px black solid;
+    background-color: white;  
+}
